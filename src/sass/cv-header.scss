@@ -1,0 +1,47 @@
+#cv-header {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 150px;
+    }
+
+    #cv-role {
+        flex: 1;
+        padding: 0 $sectionDivider;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 28px;
+            color: $primary;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-weight: 300;
+            color: #666;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+    }
+
+    #cv-contact-details {
+        font-size: 14px;
+
+        p {
+            margin-bottom: $paragraphMargin;
+        }
+    }
+}
+
+@media screen and (max-width: $cvWidth) {
+    #cv-header {
+        display: block;
+        text-align: center;
+
+        img {
+            margin-bottom: $headingMargin;
+        }
+    }
+}

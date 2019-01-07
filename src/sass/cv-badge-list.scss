@@ -1,0 +1,22 @@
+.cv-badge-list {
+    margin-bottom: -$headingMargin;
+
+    > span {
+        display: inline-block;
+        background-color: $primary2;
+        color: #FFF;
+        padding: 3px 5px;
+        margin-right: $headingMargin;
+        margin-bottom: $headingMargin;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: $cvWidth) {
+    .cv-badge-list {
+        margin-bottom: $headingMargin;
+    }
+}

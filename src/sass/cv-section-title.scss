@@ -1,0 +1,11 @@
+.cv-section-title {
+    color: $primary;
+    font-weight: normal;
+    margin-bottom: -$sectionDivider/2;
+}
+
+@media screen and (max-width: $cvWidth) {
+    .cv-section-title {
+        margin-bottom: $sectionDivider / 2;
+    }
+}
