@@ -5,10 +5,19 @@ html,
     box-sizing: border-box;
 }
 
+#root {
+    > div:last-child {
+        transform: scale(1.5);
+        transform-origin: center 0;
+    }
+}
+
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background-color: #4B4E50;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {

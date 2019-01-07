@@ -8,8 +8,7 @@ export const Header = (props) => (
             <h3>Full stack developer</h3>
             <p>
                 Specializing in React.js and Node.js Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Vestibulum in elementum purus, in laoreet purus. Curabitur
-                sit amet enim viverra leo molestie feugiat ut eget arcu.
+                adipiscing elit. Vestibulum in elementum purus, in laoreet purus.
             </p>
         </div>
         <div id="cv-contact-details">

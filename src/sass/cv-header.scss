@@ -3,7 +3,8 @@
     justify-content: space-between;
 
     img {
-        width: 150px;
+        width: $cvSidebarWidth;
+        height: $cvSidebarWidth;
     }
 
     #cv-role {
@@ -12,22 +13,22 @@
 
         h2 {
             text-transform: uppercase;
-            font-size: 28px;
+            font-size: 20px;
             color: $primary;
             margin-bottom: 5px;
             font-weight: 500;
         }
 
         h3 {
+            font-size: 16px;
             font-weight: 300;
             color: #666;
-            font-size: 22px;
             margin-bottom: 10px;
         }
     }
 
     #cv-contact-details {
-        font-size: 14px;
+        font-size: 10px;
 
         p {
             margin-bottom: $paragraphMargin;

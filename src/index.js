@@ -1,6 +1,6 @@
 import React from "react";
 import {render} from "react-dom";
 import "./sass/style.scss";
-import {Cv} from "./Cv";
+import {App} from "./App";
 
-render(<Cv/>, document.getElementById("root"));
+render(<App/>, document.getElementById("root"));
