@@ -7,3 +7,5 @@ $headingMargin: 10px;
 $paragraphMargin: 5px;
 $downloadMenuHeight: 50px;
 $cvMargin: $downloadMenuHeight + 10px;
+$cvScale: 1.5;
+$cvResponsive: $cvWidth * $cvScale;

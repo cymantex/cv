@@ -4,7 +4,7 @@
     margin-bottom: -$sectionDivider/2;
 }
 
-@media screen and (max-width: $cvWidth) {
+@media screen and (max-width: $cvResponsive) {
     .cv-section-title {
         margin-bottom: $sectionDivider / 2;
     }

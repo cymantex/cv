@@ -7,8 +7,17 @@ html,
 
 #root {
     > div:last-child {
-        transform: scale(1.5);
+        transform: scale($cvScale);
         transform-origin: center 0;
+    }
+}
+
+@media screen and (max-width: $cvResponsive) {
+    #root {
+        > div:last-child {
+            max-width: 65%;
+            margin: 0 auto;
+        }
     }
 }
 

@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: $cvWidth) {
+@media screen and (max-width: $cvResponsive) {
     .cv-badge-list {
         margin-bottom: $headingMargin;
     }

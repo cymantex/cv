@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: $cvWidth) {
+@media screen and (max-width: $cvResponsive) {
     #cv {
         margin-top: 0;
         padding: $sectionDivider;
