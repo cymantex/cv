@@ -1,19 +1,19 @@
 #cv {
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px / $cvScale;
     max-width: $cvWidth;
     background-color: #FFF;
-    font-size: 12px;
+    font-size: $cvParahraph;
 
     header,
     section {
-        margin-bottom: $sectionDivider;
+        margin-bottom: $cvSectionDivider;
     }
 
-    section {
+    > section {
         display: grid;
         grid-template-columns: $cvSidebarWidth 1fr;
-        grid-gap: $sectionDivider;
+        grid-gap: $cvSectionGridGap;
 
         p {
             margin-bottom: 0;
@@ -32,8 +32,8 @@
             text-align: right;
 
             h4 {
-                background-color: #eee;
-                color: #666;
+                background-color: $cvSidebarBackground;
+                color: $cvSidebar;
                 font-weight: 300;
                 padding: 3px 5px;
                 margin-bottom: 0;
@@ -45,7 +45,7 @@
 @media screen and (max-width: $cvResponsive) {
     #cv {
         margin-top: 0;
-        padding: $sectionDivider;
+        padding: $cvSectionDivider;
 
         > h2 {
             margin-left: 0;
@@ -61,14 +61,6 @@
             .cv-sidebar {
                 text-align: left;
                 margin-bottom: $headingMargin;
-
-                h4 {
-                    background-color: #eee;
-                    color: #666;
-                    font-weight: 300!important;
-                    padding: 3px 5px;
-                    margin-bottom: 0;
-                }
 
                 .cv-date {
                     display: none;

@@ -7,8 +7,9 @@ export const Header = (props) => (
             <h2>Simon Eriksson</h2>
             <h3>Full stack developer</h3>
             <p>
-                Specializing in React.js and Node.js Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Vestibulum in elementum purus, in laoreet purus.
+                Freelancing full stack developer specializing in React.js and Node.js.
+                Currently looking for web development related opportunities starting after
+                I finish my computer science education in June 2019.
             </p>
         </div>
         <div id="cv-contact-details">

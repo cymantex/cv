@@ -5,6 +5,11 @@ html,
     box-sizing: border-box;
 }
 
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
 #root {
     > div:last-child {
         transform: scale($cvScale);
@@ -15,7 +20,7 @@ html,
 @media screen and (max-width: $cvResponsive) {
     #root {
         > div:last-child {
-            max-width: 65%;
+            max-width: 95% / $cvScale;
             margin: 0 auto;
         }
     }
@@ -23,9 +28,9 @@ html,
 
 body {
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontFamily;
     font-weight: 300;
-    background-color: #4B4E50;
+    background-color: $background;
     overflow-x: hidden;
 }
 

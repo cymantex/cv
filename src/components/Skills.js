@@ -8,8 +8,8 @@ export const Skills = (props) => (
         <SectionTitle text="Notable developer skills"/>
         <Sidebar title="Frontend"/>
         <BadgeList items={[
-            "Javascript", "React.js", "Next.js", "jQuery", "HTML", "CSS", "SCSS", "LESS",
-            "PostCSS", "Bootstrap", "Semantic UI", "Material UI", "REST", "WebSocket"
+            "Javascript", "Typescript", "React.js", "Next.js", "jQuery", "HTML", "CSS", "SCSS",
+            "LESS", "PostCSS", "Bootstrap", "Semantic UI", "Material UI", "REST", "WebSocket"
         ]}/>
         <Sidebar title="Backend"/>
         <BadgeList items={[

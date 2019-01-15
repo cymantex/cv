@@ -25,3 +25,9 @@
         display: none;
     }
 }
+
+@media (max-width: $cvResponsive){
+    #download-menu {
+        display: none!important;
+    }
+}
